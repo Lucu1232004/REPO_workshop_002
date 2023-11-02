@@ -20,7 +20,7 @@ def read_db():
         host='localhost',
         database='workshop_02',
         user='root',
-        password='Octubre03'
+        password='pasword'
     )
     cursor = connection.cursor()
     cursor.execute('SELECT * FROM grammy')
